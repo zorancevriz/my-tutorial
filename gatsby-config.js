@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Cevriz Zoran`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
@@ -10,12 +10,12 @@ module.exports = {
     `gatsby-plugin-image`,
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    {
-      resolve: `gatsby-source-filesystem`,
+   {
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
